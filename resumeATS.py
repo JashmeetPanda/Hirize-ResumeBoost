@@ -63,20 +63,21 @@ JOB DESCRIPTION:
 # ------------------------- Streamlit UI -------------------------
 st.set_page_config(page_title="ResumeBoost", page_icon="resumeboost.png", layout="centered")
 
-# Custom CSS for layout and spacing
+# Custom CSS for light blue theme
 st.markdown("""
     <style>
         .stApp {
-            background-color: #dff7df;
+            background-color: #e6f0fa;  /* very light blue background */
         }
         html, body, [class*="css"] {
             font-family: 'Segoe UI', sans-serif;
+            color: #1a237e; /* dark blue text */
         }
         h1 {
-            color: #8B0000;
+            color: #0d47a1;  /* strong blue */
         }
         .subtitle {
-            color: green;
+            color: #1976d2;  /* medium blue */
             font-size: 1rem;
             margin-top: -10px;
             font-style: italic;
@@ -85,9 +86,10 @@ st.markdown("""
             background-color: white;
             border-radius: 10px;
             padding: 5px;
+            border: 1px solid #90caf9; /* light blue border */
         }
         .stButton > button {
-            background-color: #1E90FF;
+            background-color: #2196f3; /* bright blue */
             color: white;
             font-weight: bold;
             border-radius: 12px;
@@ -96,11 +98,11 @@ st.markdown("""
             transition: 0.3s;
         }
         .stButton > button:hover {
-            background-color: #a31621;
+            background-color: #1565c0; /* darker blue on hover */
         }
         .metric {
             font-size: 1.3rem !important;
-            color: #8B0000 !important;
+            color: #0d47a1 !important; /* dark blue */
         }
     </style>
 """, unsafe_allow_html=True)
@@ -116,7 +118,6 @@ with col2:
             </p>
         </div>
     """, unsafe_allow_html=True)
-
 
 st.markdown("---")
 
