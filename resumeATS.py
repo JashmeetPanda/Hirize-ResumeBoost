@@ -48,7 +48,7 @@ Compare the following RESUME with the JOB DESCRIPTION and return only a **valid 
 {{
   "JD Match": "85%",
   "Missing Keywords": ["keyword1", "keyword2", ...],
-  "Profile Summary": "Summarize the resume in 2–3 sentences and offer specific suggestions to improve it."
+  "Profile Summary": "Summarize the resume in 4-5 sentences and offer specific suggestions to improve it."
 }}
 
 ⚠️ Do NOT add anything outside this JSON. No explanations, greetings, or formatting.
